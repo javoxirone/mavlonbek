@@ -61,8 +61,20 @@ button {
 	align-items: center;
 	flex-wrap: wrap;
 }
+.logo-box{
+	display: flex;
+	gap: 10px;
+}
+.logo-box > h3{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.logo-box > h3 > span{
+	color: #FC9F3F;
+}
 .logo {
-	width: 204px;
+	width: 36px;
 	height: auto;
 }
 .header__nav {
@@ -112,7 +124,7 @@ nav {
 .home__img {
 	>img {
 		position: absolute;
-		top: 120px;
+		top: 0;
 		right: 0;
 	}
 	>.home__social {
